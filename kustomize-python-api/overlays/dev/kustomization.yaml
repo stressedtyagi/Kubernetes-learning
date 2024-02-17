@@ -5,7 +5,3 @@ namespace: dev
 
 patches:
   - path: replicas.yaml
-
-configMapGenerator:
-  - name: mykustom-map
-    env: configmap.properties
